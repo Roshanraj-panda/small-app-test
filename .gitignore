@@ -1,0 +1,7 @@
+# Project exclude paths
+/project/project/target/
+/project/target/
+/streamlets/target/scala-2.12/classes/
+/streamlets/target/streams/
+/target/scala-2.12/
+/target/streams/

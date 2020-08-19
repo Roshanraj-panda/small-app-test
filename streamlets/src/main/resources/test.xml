@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OrderList TotalNoOfOrders="3">
+    <Order Action="CREATE" AllocationRuleID="OFF5_SCH" AuthorizedClient="OFF5" BillToID="00001001" CustomerContactID="00001001" CustomerEMailID="sean.leavy@hbc.com" CustomerFirstName="Sean" CustomerLastName="Test" DocumentType="0001" DraftOrderFlag="N" EnteredBy="Web" EnterpriseCode="OFF5" EntryType="Online" OrderDate="2020-06-30T14:47:42Z" OrderNo="140005500" SellerOrganizationCode="OFF5">
+        <PersonInfoBillTo AddressLine1="1 We Dr" City="Prestonsburg" Country="US" DayPhone="2128893823" EMailID="sean.leavy@hbc.com" FirstName="S3an" LastName="T3st" State="KY" ZipCode="41653-8799"/>
+        <PersonInfoShipTo AddressLine1="1 We Dr" AddressLine2="" City="Prestonsburg" Country="US" DayPhone="2128893823" EMailID="sean.leavy@hbc.com" FirstName="S3an" LastName="T3st" State="KY" ZipCode="41653-8799"/>
+        <OrderLines>
+            <OrderLine CarrierServiceCode="Standard" DeliveryMethod="SHP" FulfillmentType="SHIP" GiftFlag="N" GiftWrap="N" LineType="REGULAR" OrderedQty="2" PrimeLineNo="1" SCAC="FEDX" ShipNode="" SubLineNo="1">
+                <Item CustomerItemDesc="&amp;$ETERNITY&amp;$ Aqu&amp;$a for Men&amp;$ Eau&amp;$ De Toilette Spray&amp;$" ItemID="98710441" ProductLine="1" UnitOfMeasure="EACH"/>
+                <PersonInfoShipTo AddressLine1="1 We Dr" AddressLine2="" City="Prestonsburg" Country="US" DayPhone="2128893823" EMailID="sean.leavy@hbc.com" FirstName="S3an" LastName="T3st" State="KY" ZipCode="41653-8799"/>
+                <LinePriceInfo IsLinePriceForInformationOnly="N" ListPrice="100.00" PricingQuantityStrategy="FIX" RetailPrice="100.00" UnitPrice="100.00"/>
+                <LineCharges>
+                    <LineCharge ChargeCategory="SHIPPINGCHARGE" ChargeName="SHIPPINGCHARGE" ChargePerLine="4.42"/>
+                </LineCharges>
+                <LineTaxes>
+                    <LineTax ChargeCategory="PRICE" ChargeName="PRICE" Tax="12.00" TaxName="General Sales and Use Tax" TaxPercentage="0.06"/>
+                    <LineTax ChargeCategory="SHIPPINGCHARGE" ChargeName="SHIPPINGCHARGE" Tax="0.27" TaxName="General Sales and Use Tax" TaxPercentage="0.06"/>
+                </LineTaxes>
+                <OrderDates>
+                    <OrderDate ActualDate="2020-07-05T00:00:00" DateTypeId="ORD_LINE_EXP_DEL_DATE"/>
+                </OrderDates>
+                <Extn ExtnIsPromoEvaluated="Y" ExtnIsReturnable="Y" ExtnWebLineNumber="1"/>
+            </OrderLine>
+            <OrderLine CarrierServiceCode="Standard" DeliveryMethod="SHP" FulfillmentType="SHIP" GiftFlag="N" GiftWrap="N" LineType="REGULAR" OrderedQty="1" PrimeLineNo="2" SCAC="FEDX" ShipNode="" SubLineNo="1">
+                <Item CustomerItemDesc="Leather Moc-Toe Bluchers" ItemID="12529016" ProductLine="1" UnitOfMeasure="EACH"/>
+                <PersonInfoShipTo AddressLine1="1 We Dr" AddressLine2="" City="Prestonsburg" Country="US" DayPhone="2128893823" EMailID="sean.leavy@hbc.com" FirstName="S3an" LastName="T3st" State="KY" ZipCode="41653-8799"/>
+                <LinePriceInfo IsLinePriceForInformationOnly="N" ListPrice="161.49" PricingQuantityStrategy="FIX" RetailPrice="375.00" UnitPrice="189.99"/>
+                <LineCharges>
+                    <LineCharge ChargeCategory="DISCOUNT" ChargeName="DISCOUNT" ChargePerLine="28.50"/>
+                    <LineCharge ChargeCategory="SHIPPINGCHARGE" ChargeName="SHIPPINGCHARGE" ChargePerLine="3.57"/>
+                </LineCharges>
+                <LineTaxes>
+                    <LineTax ChargeCategory="PRICE" ChargeName="PRICE" Tax="9.69" TaxName="General Sales and Use Tax" TaxPercentage="0.06"/>
+                    <LineTax ChargeCategory="SHIPPINGCHARGE" ChargeName="SHIPPINGCHARGE" Tax="0.21" TaxName="General Sales and Use Tax" TaxPercentage="0.06"/>
+                </LineTaxes>
+                <OrderDates>
+                    <OrderDate ActualDate="2020-07-05T00:00:00" DateTypeId="ORD_LINE_EXP_DEL_DATE"/>
+                </OrderDates>
+                <Extn ExtnIsPromoEvaluated="Y" ExtnIsReturnable="Y" ExtnWebLineNumber="2"/>
+            </OrderLine>
+        </OrderLines>
+        <PaymentMethods>
+            <PaymentMethod ChargeSequence="1" CreditCardExpDate="11/2022" CreditCardName="Sean Test" CreditCardNo="4111111309031111" CreditCardType="VISA" DisplayCardNo="1111" DisplayCreditCardNo="1111" FirstName="Sean" LastName="Test" MaxChargeLimit="391.65" PaymentReference1="1111" PaymentReference4="2020-06-30,001,5,7789" PaymentReference6="TKNX" PaymentService="REGULAR" PaymentType="CREDIT_CARD" UnlimitedCharges="N">
+                <PaymentDetails AuthAvs="N" AuthReturnCode="1" AuthorizationExpirationDate="2020-07-06T00:00:00" AuthorizationID="094745" ChargeType="AUTHORIZATION" ProcessedAmount="391.65" Reference1="" Reference2="" RequestAmount="391.65" TranReturnMessage="|094745"/>
+                <PersonInfoBillTo AddressLine1="1 We Dr" AddressLine2="" City="Prestonsburg" Country="US" DayPhone="2128893823" EMailID="sean.leavy@hbc.com" FirstName="S3an" LastName="T3st" State="KY" ZipCode="41653-8799"/>
+            </PaymentMethod>
+        </PaymentMethods>
+        <OrderHoldTypes>
+            <OrderHoldType HoldType="HBC_FRAUD_REVIEW" ReasonText="HBC_FRAUD_REVIEW"/>
+        </OrderHoldTypes>
+        <Extn ExtnAssociateName="Customer" ExtnClientID="00001001" ExtnCommLang="en_US" ExtnCurrencyCode="USD" ExtnIsFiftyOne="N" ExtnReference1="UOP">
+            <HbcOrderHeaderAttrList>
+                <HbcOrderHeaderAttr FraudReference1="&lt;YFSEnvironment CustomerCreationDate=&quot;20200604195521&quot; IP=&quot;50.91.178.56&quot; device_fingerprint=&quot;fddc285a52330599d34fc0481d&quot; employee_ind=&quot;N&quot; fail_attempts=&quot;1&quot; in_auth_session_id=&quot;fddc285a52330599d34fc0481d&quot;/&gt;"/>
+            </HbcOrderHeaderAttrList>
+        </Extn>
+    </Order>
+    <Order Action="CREATE" AllocationRuleID="OFF5_SCH" AuthorizedClient="OFF5" CustomerEMailID="sean.leavy@hbc.com" DocumentType="0001" DraftOrderFlag="N" EnteredBy="Web" EnterpriseCode="OFF5" EntryType="Online" OrderDate="2020-06-26T18:30:12Z" OrderNo="140004501" SellerOrganizationCode="OFF5">
+        <PersonInfoBillTo AddressLine1="1 We Dr" City="Prestonsburg" Country="US" DayPhone="2123343434" EMailID="sean.leavy@hbc.com" FirstName="Sean" LastName="Test" State="KY" ZipCode="41653-8799"/>
+        <PersonInfoShipTo AddressLine1="1 We Dr" AddressLine2="" City="Prestonsburg" Country="US" DayPhone="2123343434" EMailID="sean.leavy@hbc.com" FirstName="Sean" LastName="Test" State="KY" ZipCode="41653-8799"/>
+        <OrderLines>
+            <OrderLine CarrierServiceCode="Standard (AK&amp;HI)" DeliveryMethod="SHP" FulfillmentType="SHIP" GiftFlag="N" GiftWrap="N" LineType="REGULAR" OrderedQty="1" PrimeLineNo="1" SCAC="FEDX" ShipNode="" SubLineNo="1">
+                <Item CustomerItemDesc="&amp;$ETERNITY&amp;$ Aqu&amp;$a for Men&amp;$ Eau&amp;$ De Toilette Spray&amp;$" ItemID="98710441" ProductLine="1" UnitOfMeasure="EACH"/>
+                <PersonInfoShipTo AddressLine1="1 We Dr" AddressLine2="" City="Prestonsburg" Country="US" DayPhone="2123343434" EMailID="sean.leavy@hbc.com" FirstName="Sean" LastName="Test" State="KY" ZipCode="41653-8799"/>
+                <LinePriceInfo IsLinePriceForInformationOnly="N" ListPrice="100.00" PricingQuantityStrategy="FIX" RetailPrice="100.00" UnitPrice="100.00"/>
+                <LineCharges>
+                    <LineCharge ChargeCategory="SHIPPINGCHARGE" ChargeName="SHIPPINGCHARGE" ChargePerLine="7.99"/>
+                </LineCharges>
+                <LineTaxes>
+                    <LineTax ChargeCategory="PRICE" ChargeName="PRICE" Tax="6.00" TaxName="General Sales and Use Tax" TaxPercentage="0.06"/>
+                    <LineTax ChargeCategory="SHIPPINGCHARGE" ChargeName="SHIPPINGCHARGE" Tax="0.00" TaxName="General Sales and Use Tax" TaxPercentage="0.06"/>
+                </LineTaxes>
+                <OrderDates>
+                    <OrderDate ActualDate="2020-07-01T00:00:00" DateTypeId="ORD_LINE_EXP_DEL_DATE"/>
+                </OrderDates>
+                <Extn ExtnIsPromoEvaluated="Y" ExtnIsReturnable="Y" ExtnWebLineNumber="1"/>
+            </OrderLine>
+        </OrderLines>
+        <PaymentMethods>
+            <PaymentMethod ChargeSequence="1" CreditCardExpDate="11/2023" CreditCardName="Sean Test" CreditCardNo="4111111309031111" CreditCardType="VISA" DisplayCardNo="1111" DisplayCreditCardNo="1111" FirstName="Sean" LastName="Test" MaxChargeLimit="114.47" PaymentReference1="1111" PaymentReference4="2020-06-26,001,601,7789" PaymentReference6="TKNX" PaymentService="REGULAR" PaymentType="CREDIT_CARD" UnlimitedCharges="N">
+                <PaymentDetails AuthAvs="N" AuthReturnCode="1" AuthorizationExpirationDate="2020-07-02T00:00:00" AuthorizationID="013013" ChargeType="AUTHORIZATION" ProcessedAmount="114.47" Reference1="" Reference2="M" RequestAmount="114.47" TranReturnMessage="601         |013013"/>
+                <PersonInfoBillTo AddressLine1="1 We Dr" AddressLine2="" City="Prestonsburg" Country="US" DayPhone="2123343434" EMailID="sean.leavy@hbc.com" FirstName="Sean" LastName="Test" State="KY" ZipCode="41653-8799"/>
+            </PaymentMethod>
+        </PaymentMethods>
+        <Extn ExtnAssociateName="Customer" ExtnCommLang="en_US" ExtnCurrencyCode="USD" ExtnIsFiftyOne="N" ExtnReference1="UOP">
+            <HbcOrderHeaderAttrList>
+                <HbcOrderHeaderAttr FraudReference1="&lt;YFSEnvironment CustomerCreationDate=&quot;&quot; IP=&quot;50.91.178.56&quot; device_fingerprint=&quot;d6ce63640e813f4860419b6476&quot; employee_ind=&quot;N&quot; fail_attempts=&quot;1&quot; in_auth_session_id=&quot;d6ce63640e813f4860419b6476&quot;/&gt;"/>
+            </HbcOrderHeaderAttrList>
+        </Extn>
+    </Order>
+    <Order Action="CREATE" AllocationRuleID="OFF5_SCH" AuthorizedClient="OFF5" CustomerEMailID="sean.leavy@hbc.com" DocumentType="0001" DraftOrderFlag="N" EnteredBy="Web" EnterpriseCode="OFF5" EntryType="Online" OrderDate="2020-06-26T18:18:14Z" OrderNo="140004500" SellerOrganizationCode="OFF5">
+        <PersonInfoBillTo AddressLine1="1 We Dr" City="Prestonsburg" Country="US" DayPhone="2123349090" EMailID="sean.leavy@hbc.com" FirstName="Sean" LastName="T3st" State="KY" ZipCode="41653-8799"/>
+        <PersonInfoShipTo AddressLine1="1 We Dr" AddressLine2="" City="Prestonsburg" Country="US" DayPhone="2123349090" EMailID="sean.leavy@hbc.com" FirstName="Sean" LastName="T3st" State="KY" ZipCode="41653-8799"/>
+        <OrderLines>
+            <OrderLine CarrierServiceCode="Standard (AK&amp;HI)" DeliveryMethod="SHP" FulfillmentType="SHIP" GiftFlag="N" GiftWrap="N" LineType="REGULAR" OrderedQty="1" PrimeLineNo="1" SCAC="FEDX" ShipNode="" SubLineNo="1">
+                <Item CustomerItemDesc="&amp;$ETERNITY&amp;$ Aqu&amp;$a for Men&amp;$ Eau&amp;$ De Toilette Spray&amp;$" ItemID="98710441" ProductLine="1" UnitOfMeasure="EACH"/>
+                <PersonInfoShipTo AddressLine1="1 We Dr" AddressLine2="" City="Prestonsburg" Country="US" DayPhone="2123349090" EMailID="sean.leavy@hbc.com" FirstName="Sean" LastName="T3st" State="KY" ZipCode="41653-8799"/>
+                <LinePriceInfo IsLinePriceForInformationOnly="N" ListPrice="100.00" PricingQuantityStrategy="FIX" RetailPrice="100.00" UnitPrice="100.00"/>
+                <LineCharges>
+                    <LineCharge ChargeCategory="SHIPPINGCHARGE" ChargeName="SHIPPINGCHARGE" ChargePerLine="7.99"/>
+                </LineCharges>
+                <LineTaxes>
+                    <LineTax ChargeCategory="PRICE" ChargeName="PRICE" Tax="6.00" TaxName="General Sales and Use Tax" TaxPercentage="0.06"/>
+                    <LineTax ChargeCategory="SHIPPINGCHARGE" ChargeName="SHIPPINGCHARGE" Tax="0.00" TaxName="General Sales and Use Tax" TaxPercentage="0.06"/>
+                </LineTaxes>
+                <OrderDates>
+                    <OrderDate ActualDate="2020-07-01T00:00:00" DateTypeId="ORD_LINE_EXP_DEL_DATE"/>
+                </OrderDates>
+                <Extn ExtnIsPromoEvaluated="Y" ExtnIsReturnable="Y" ExtnWebLineNumber="1"/>
+            </OrderLine>
+        </OrderLines>
+        <PaymentMethods>
+            <PaymentMethod ChargeSequence="1" CreditCardExpDate="11/2021" CreditCardName="Sean T3st" CreditCardNo="4111111309031111" CreditCardType="VISA" DisplayCardNo="1111" DisplayCreditCardNo="1111" FirstName="Sean" LastName="T3st" MaxChargeLimit="114.47" PaymentReference1="1111" PaymentReference4="2020-06-26,001,600,7789" PaymentReference6="TKNX" PaymentService="REGULAR" PaymentType="CREDIT_CARD" UnlimitedCharges="N">
+                <PaymentDetails AuthAvs="N" AuthReturnCode="1" AuthorizationExpirationDate="2020-07-02T00:00:00" AuthorizationID="011817" ChargeType="AUTHORIZATION" ProcessedAmount="114.47" Reference1="" Reference2="M" RequestAmount="114.47" TranReturnMessage="600         |011817"/>
+                <PersonInfoBillTo AddressLine1="1 We Dr" AddressLine2="" City="Prestonsburg" Country="US" DayPhone="2123349090" EMailID="sean.leavy@hbc.com" FirstName="Sean" LastName="T3st" State="KY" ZipCode="41653-8799"/>
+            </PaymentMethod>
+        </PaymentMethods>
+        <Extn ExtnAssociateName="Customer" ExtnCommLang="en_US" ExtnCurrencyCode="USD" ExtnIsFiftyOne="N" ExtnReference1="UOP">
+            <HbcOrderHeaderAttrList>
+                <HbcOrderHeaderAttr FraudReference1="&lt;YFSEnvironment CustomerCreationDate=&quot;&quot; IP=&quot;50.91.178.56&quot; device_fingerprint=&quot;3589894568d11278d81c92eb11&quot; employee_ind=&quot;N&quot; fail_attempts=&quot;1&quot; in_auth_session_id=&quot;3589894568d11278d81c92eb11&quot;/&gt;"/>
+            </HbcOrderHeaderAttrList>
+        </Extn>
+    </Order>
+</OrderList>
